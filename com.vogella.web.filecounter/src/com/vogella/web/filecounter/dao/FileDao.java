@@ -21,8 +21,6 @@ public class FileDao {
                 f.createNewFile();
                 writer = new PrintWriter(new FileWriter(f));
                 writer.println(0);
-            }
-            if (writer != null) {
                 writer.close();
             }
 
