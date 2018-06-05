@@ -42,7 +42,6 @@ public class EmployeeController {
 //    }
  
     @RequestMapping(value = "/employee", method = RequestMethod.POST, produces = { MediaType.APPLICATION_JSON_VALUE })
-    
     @ResponseBody
     public Employee addEmployee(@RequestBody Employee emp) {
  
