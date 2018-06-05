@@ -1,0 +1,41 @@
+.x-treelist{
+	
+	&.sidebar{
+		background-color:#1b2c44;
+
+		.x-treelist-row-over{
+			background:#476fa7;
+			color:#1b2c44;
+		}
+		
+		.x-treelist-item-selected{
+			.x-treelist-row{
+				background-color: #ffbf00;
+			}
+			
+			.x-treelist-item-text{
+				color:#1b2c44;
+			}
+			
+			.x-treelist-item-icon, .x-treelist-item-tool{
+				color:#000;
+			}
+			
+			.x-treelist-item-expander{
+				color:#000;
+			}
+		}
+		
+		.x-treelist-item-text{
+			color:#fff;
+		}
+		
+		.x-treelist-row{
+			padding-left:10px;
+		}
+		
+		.x-treelist-root-container{
+			margin-top:15px;
+		}
+	}//.sidebar
+}

@@ -1,0 +1,8 @@
+<strong><span style="color: #777">Manifest-Version:</span> <span style="color: red">1.0</span>
+<span style="color: #777">Ant-Version:</span><span style="color: red"> Apache Ant 1.9.7</span>
+<span style="color: #777">Created-By:</span><span style="color: red"> 1.8.0_66-b18 (Oracle Corporation)</span>
+<span style="color: #777">Built-By:</span><span style="color: red"> SVC-JENKINS</span>
+<span style="color: #777">Implementation-Title:</span><span style="color: red"> Directory</span>
+<span style="color: #777">Implementation-Build:</span><span style="color: red">  19</span>
+<span style="color: #777">Build-Timestamp:</span><span style="color: red"> 07/09/2017 02:39 PM</span></strong>
+

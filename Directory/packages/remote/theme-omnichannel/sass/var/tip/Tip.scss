@@ -1,0 +1,20 @@
+$tip-border-radius: dynamic(2px);
+$tip-body-color: #fff;
+$tip-background-color: #476fa7;
+$tip-border-color: dynamic($tip-background-color);
+$tip-body-padding: dynamic(10px 15px);
+$tip-anchor-height: 10px;
+
+.x-autocontainer-innerCt{
+	strong{
+		//color:#ffbf00;
+		color: #ff0000;
+		margin-bottom:8px;
+		display:inline-block;
+	}
+}
+
+.x-tip-default .x-tool-img {
+    background-image: url(images/tools/tool-sprites.png) !important;
+    background-color: #476fa7;
+}

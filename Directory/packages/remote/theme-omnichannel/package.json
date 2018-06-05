@@ -1,0 +1,55 @@
+{
+  "name": "theme-omnichannel",
+  "namespace": "Ext",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "Omnichannel",
+  "summary": "Short summary",
+  "detailedDescription": "Long description of package",
+  "type": "theme",
+  "extend": "theme-neptune",
+  "signatures": [
+    {
+      "name": "Omnichannel",
+      "uuid": "84654807-576a-46e5-a5d5-d2453de35450",
+      "created": "2017-03-01T19:31:53Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "L/Bv3qwIPtk\u003d",
+      "signature": "U9hR5BlYQrk5JRDZ8v76d6C5joT0DoJunz02uNHz6SF2BPa+bk+OE6NcpsHm++qO0k/QfPonzGsEziVUL/TL/vtHdlqDSImB/d9HuUy44X78+6UNWeubK7dctkorGg4KqwLiB0cfajHDen0+YGTRIToPP2FqmiqO1+Jbk+5BT/g3/M0VAqtzeHJ1m/wAxB3LZN2GOm8Dn5LX12XRuKD8KPo0hh+hTJl6gVRE2bJs2Pn+dwlYvcjlLPDnCvlzdMmOnhVRyt0mGKFNaWsGTpFhyny9uuawkmTdzIU3rs9O1SuwVSTGASrwt6QDJAVsKIJjUDdm+pNaXx/M//juymnL7w\u003d\u003d"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "Ext",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides"
+  ],
+  "example": {
+    "path": [
+      "${package.dir}/examples"
+    ]
+  },
+  "framework": "ext"
+}

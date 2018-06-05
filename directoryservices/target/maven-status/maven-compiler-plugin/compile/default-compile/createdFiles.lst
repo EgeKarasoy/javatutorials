@@ -1,0 +1,12 @@
+com\avaldes\model\StatusMessage.class
+com\avaldes\dao\EmployeeRepository.class
+com\avaldes\model\SelectionCriteria.class
+com\avaldes\model\Employees.class
+com\avaldes\util\SimpleCORSFilter.class
+com\avaldes\util\JsonDateTimeSerializer.class
+com\avaldes\model\Employee.class
+com\avaldes\EmployeeDirectoryApplication.class
+com\avaldes\tutorial\DirectoryServicesController.class
+com\avaldes\util\DateUtility.class
+com\avaldes\model\Field.class
+com\avaldes\model\Operator.class
